@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="fr"> <!-- Important pour le référencement -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Iinital scale : niveau de zoom par défaut -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/477e17b079.js" crossorigin="anonymous"></script>
+    <title>Mon premier site</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <img id="logoHeader" src="./img/logo-cat.png" alt="logo" />
+            <ul>
+                <li>Présentation</li>
+                <li>Services</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Mon premier site</h1>
+        <section id="presentation" class="flexContainer">
+            <p class="welcome">Bienvenue dans la formation</p>
+            <p class="welcome">DWWM</p>
+            <a href="./page2.html" class="btn">En savoir plus</a>
+        </section>
+        <section class="containerPresentation">
+            <div class="itemPresentation">
+                <i class="fa-brands fa-html5"></i>
+                <h3>HTML</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, eius sed recusandae
+                    quis consequuntur cum illo incidunt hic aliquam. Nesciunt odit, facilis quo consequatur veniam iusto
+                    ab non aperiam at!</p>
+            </div>
+            <div class="itemPresentation">
+                <i class="fa-brands fa-css3-alt"></i>
+                <h3>CSS</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, eius sed recusandae
+                    quis consequuntur cum illo incidunt hic aliquam. Nesciunt odit, facilis quo consequatur veniam iusto
+                    ab non aperiam at!</p>
+            </div>
+            <div class="itemPresentation">
+                <i class="fa-brands fa-js"></i>
+                <h3>JS</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, eius sed recusandae
+                    quis consequuntur cum illo incidunt hic aliquam. Nesciunt odit, facilis quo consequatur veniam iusto
+                    ab non aperiam at!</p>
+            </div>
+        </section>
+        <section class="formations">
+            <div class="formation">
+                <span class="price">299€</span>
+                <i class="fa-brands fa-js"></i>
+                <h3>Formation JS</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, eius sed recusandae
+                    quis consequuntur cum illo incidunt hic aliquam. Nesciunt odit, facilis quo consequatur veniam iusto
+                    ab non aperiam at!</p>
+                <span class="soldOut">SOLD OUT</span>
+            </div>
+        </section>
+
+
+
+        <h1>Titre de niveau 1</h1>
+        <h2>Titre de niveau 2</h2>
+        <h3>Titre de niveau 3</h3>
+        <p>Mon paragraphe, c'est le plus beau.</p>
+        <div>
+            <h3>Mon article de blog</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse laboriosam quaerat possimus, fuga repellat
+                illo
+                inventore hic aspernatur error suscipit nostrum reiciendis, facilis unde. Quis neque quam sapiente
+                necessitatibus quas?</p>
+            <a href="http://google.fr">Google is cool.</a>
+            <a href="http://google.fr" target="_blank">Google dans un nouvel onglet.</a>
+        </div>
+
+        <h2>Des listes</h2>
+        <!-- ul = conteneur de la liste -->
+        <ul>
+            <li>Element 1 dans une liste à puces.</li>
+            <li>Element 2 dans une liste à puces.</li>
+            <li>Element 3 dans une liste à puces.</li>
+            <li>Element 4 dans une liste à puces.</li>
+        </ul>
+
+        <ol>
+            <li>Element 1 dans une liste à numéros.</li>
+            <li>Element 2 dans une liste à numéros.</li>
+            <li>Element 3 dans une liste à numéros.</li>
+            <li>Element 4 dans une liste à numéros.</li>
+        </ol>
+
+        <div>
+            <h2>Des figures</h2>
+            <figure>
+                <img src="https://images.unsplash.com/photo-1533738363-b7f9aef128ce?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1935&q=80"
+                    alt="chat avec lunettes" width="500px" title="MIAOU" />
+                <figcaption>Un chat avec des lunettes.</figcaption>
+            </figure>
+            <figure>
+                <img src="./img/marita-kavelashvili-ugnrXk1129g-unsplash.jpg" alt="arbres" width="500px"
+                    title="TREES" />
+                <figcaption>Une image d'arbre placée dans un dossier "img".</figcaption>
+            </figure>
+        </div>
+
+        <div>
+            <h2>Deux vidéos trop stylées :</h2>
+            <iframe src="https://www.youtube.com/embed/QH2-TGUlwu4?si=10vrV37shm6YM0KY" frameborder="0" width="500"
+                height="315"></iframe>
+            <iframe src="https://www.youtube.com/embed/jfKfPfyJRdk?si=eXjWVSz0aVcyWgp7" frameborder="0" width="500"
+                height="315"></iframe>
+        </div>
+
+        <div>
+            <h2>Un tableau de fruits</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Fruits</th>
+                        <th>Prix</th>
+                        <th>Poids</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Fraises</td>
+                        <td>5€</td>
+                        <td>500g</td>
+                    </tr>
+                    <tr>
+                        <td>Bananes</td>
+                        <td>1€</td>
+                        <td>200g</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div>
+            <h2>Un formulaire</h2>
+            <form action="" method="post">
+                <div>
+                    <label for="inputFirstName">Votre prénom :</label>
+                    <input type="text" id="inputFirstName" required
+                        placeholder="Toto" /><!--required = rend obligatoire le fait de remplir ce champ -->
+                </div>
+                <div>
+                    <label for="inputEmail">Votre e-mail :</label>
+                    <input type="email" id="inputEmail" placeholder="toto@gmail.com" />
+                </div>
+                <div>
+                    <label for="inputPassword">Votre mot de passe :</label>
+                    <input type="password" id="inputPassword" />
+                </div>
+                <div>
+                    <p><b>Des zones de texte :</b></p>
+                    <label for="textMessage">Votre message :</label>
+                    <textarea id="textMessage" cols="30" rows="4"></textarea>
+                </div>
+
+                <div>
+                    <p><b>Des listes déroulantes :</b></p>
+                    <label for="selectCountry">Votre pays :</label>
+                    <select name="country" id="selectCountry" required>
+                        <option value="">--Merci de faire un choix à un moment donné svp--</option>
+                        <option value="france">France</option>
+                        <option value="italie">Italie</option>
+                    </select>
+                </div>
+
+                <div>
+                    <p><b>Des cases à cocher (checkbox) :</b></p>
+                    <input type="checkbox" name="checkFoot" id="">
+                    <label for="checkFoot">Foot</label>
+                    <input type="checkbox" name="checkGolf" id="">
+                    <label for="checkGolf">Golf</label>
+                </div>
+
+
+                <div>
+                    <p><b>Des boutons radios (un seul choix) :</b></p>
+                    <input type="radio" name="radioChoice" id="radioInputGauche">
+                    <label for="radioInputGauche">Gauche</label>
+                    <input type="radio" name="radioChoice" id="radioInputDroit">
+                    <label for="radioInputDroit">Droite</label>
+                </div>
+
+                <div>
+                    <p><b>Un bouton permettant d'envoyer les données du formulaire</b></p>
+                    <input type="submit" value="Envoyer le formulaire" />
+                </div>
+
+            </form>
+
+
+
+
+
+
+        </div>
+    </main>
+
+
+    <footer></footer>
+</body>
+
+</html>

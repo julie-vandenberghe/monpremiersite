@@ -1,0 +1,187 @@
+@font-face {
+	font-family: 'Artifika Medium';
+	src: url('../fonts/artifika-regular-webfont.woff2') format('woff2'), url('../fonts/artifika-regular-webfont.woff') format('woff')
+    /* Pour des questions de compatibilité de navigateur, on déclare 1 police woff et 1 police woff2. */
+}
+
+* {
+    
+    box-sizing: border-box;
+    /* padding: 0;
+    margin: 0;  */
+
+}
+
+html {
+
+    font-size:62.5%;
+    background-color: beige;
+
+}
+
+
+body {
+    
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/*  ----------------   */
+/*  ---   MENU   ---   */
+/*  ----------------   */
+
+nav {
+    
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+
+}
+
+nav #logoHeader {
+    
+    width:3rem;
+    height:auto;
+
+}
+
+nav ul {
+    
+    list-style-type: none;
+    
+}
+
+nav ul li {
+    
+    display:inline;
+    border: solid 1px black;
+    margin-left:5px;
+
+}
+
+#presentation {
+    
+    font-family: 'Artifika Medium', sans-serif;
+    background-color: rgb(120, 175, 175);
+    text-align: center;
+    background-image: url(../img/marita-kavelashvili-ugnrXk1129g-unsplash.jpg);
+    background-size: cover;
+    padding: 10px 0 10px 0;
+    height : 250px;
+    font-size:10px;
+    
+
+}
+
+.flexContainer {
+   
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+#presentation p {
+   
+    font-size: 2rem;
+    border:solid 1px red;
+
+}
+
+/* On peut via des pseudo-classes sélectionner seulement les p */
+/* #presentation p:nth-child(n) {
+    color:rgb(175, 120, 120);
+} */
+
+.welcome {
+    
+    color: red;
+
+}
+
+.btn {
+
+    background-color: blue;
+    color: white;
+    padding: 6px;
+    border-radius: 20px;
+
+}
+
+.btn:hover {
+
+        background-color:white;
+        color:blue;
+    
+}
+
+.containerPresentation {
+
+    width:100%;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+
+}
+
+.itemPresentation {
+
+   flex-basis:30%;
+   display:flex;
+   flex-direction:column;
+   justify-content:center;
+   align-items:center;
+   
+
+}
+
+.itemPresentation i, .formation i {
+
+    font-size: 3rem;
+    color:blue;
+
+}
+
+a {
+
+    text-decoration: none;
+
+}
+
+
+.formation {
+
+    border:solid 2px blue;
+    width:50%;
+    margin:auto;
+    text-align:center;
+    position:relative;
+
+}
+
+.formation span.price {
+
+    position:absolute;
+    top:-20px;
+    left:-20px;
+    border : 1px solid blue;
+    border-radius:50%;
+    padding : 20px;
+    background-color: gold;
+
+}
+
+.formation span.soldOut {
+
+    position:absolute;
+    font-size:25px;
+    height:20px;
+    top:50%;
+    right:0;
+    left:0;
+    bottom:0;
+    /* border : 1px solid blue;
+    background-color: gold; */
+    transform: rotate(-45deg);
+}
+
